@@ -82,13 +82,8 @@ if ($git) {
                  </div><!--listing-->
 
                          <p class="more">
-                                 <?php
-                                 $arc_year = get_the_time('Y');
-                                 $arc_month = get_the_time('m');
-                                  ?>
-                                 <?php next_posts_link( 'Older Entries »', 0 ); ?>
-                                <a href="<?php echo get_month_link("$arc_year", "$arc_month"); ?>">[More posts from the archive &rarr;]</a>
-                        </p>
+                         <a href="http://ospublish.constantvzw.org/blog/archives">[More posts by browsing the archive &rarr;]</a>
+                         </p>
           
                  </div><!--left_side-->
                   <div id="right_side">

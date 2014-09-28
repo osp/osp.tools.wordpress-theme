@@ -115,7 +115,7 @@ pre {
   margin: 0 auto; }
 
 #right_side, #left_side, .sidebar {
-  width: 440 px;
+  width: 440px;
   float: left;
   overflow: hidden; }
 
@@ -243,7 +243,7 @@ ul.blognav a {
   color: black; }
 
 ul.blognav li {
-  margin: 0px 7px 2px 0px;
+  margin: 0px 7px 2px 0;
   font-size: 14px;
   float: left;
   list-style: none; }
@@ -361,10 +361,11 @@ ul.blognav li {
 
 .post {
   margin: 5px 0 15px 0;
-  border-bottom: 1px dotted black; }
+  border-bottom: 1px dotted grey; }
 
 .entry {
-  font-size: 12px; }
+  font-size: 14px;
+  line-height: 17px; }
 
 .wide_post .entry {
   padding: 10px 15px 0 0;
@@ -376,6 +377,10 @@ ul.blognav li {
 
 .post .entry {
   margin-top: 5px; }
+
+div.wp_rp_content {
+  padding-top: 10px;
+  border-top: 1px dotted; }
 
 .recent_date {
   padding-left: 3px;

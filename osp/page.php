@@ -9,6 +9,7 @@
 			<h1><?php the_title(); ?></h1>	
 			<div class="entry">		
 				<?php the_content('<p>Read the rest of this page &rarr;</p>'); ?>
+				<h3 class="wp_relatedposts">Related posts</h3>
 				<?php link_pages('<p><strong>Pages:</strong> ', '</p>', 'number'); ?>
 			</div>
 			</wide>
