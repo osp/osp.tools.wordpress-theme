@@ -58,7 +58,7 @@ if ($git) {
                  <div class="listing">   
                   
                   <?php if (have_posts()) : ?>    
-                  <?php query_posts('showposts=5&offset=3'); ?>
+                  <?php query_posts('showposts=10&offset=3'); ?>
                   <?php while (have_posts()) : the_post(); ?>
                   
                           
