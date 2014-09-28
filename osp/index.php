@@ -17,10 +17,10 @@
                             <li><a href="/recipes">Recipes</a></li>
                           </ul>
                           <div style="clear:both;"></div>
-                          <div style="margin-bottom:20px;"></div>
+                          <div style="margin-bottom:20px; border-bottom:1px dotted black;"></div>
                            
                    <?php if (have_posts()) : ?>    
-                  <?php query_posts('showposts=3'); ?>
+                  <?php query_posts('showposts=5'); ?>
                   <?php while (have_posts()) : the_post(); ?>
                   
                                                   <div class="post">
@@ -86,6 +86,7 @@ if ($git) {
                                  $arc_year = get_the_time('Y');
                                  $arc_month = get_the_time('m');
                                   ?>
+                                 <?php next_posts_link( 'Older Entries »', 0 ); ?>
                                 <a href="<?php echo get_month_link("$arc_year", "$arc_month"); ?>">[More posts from the archive &rarr;]</a>
                         </p>
           

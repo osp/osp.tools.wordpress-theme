@@ -2,7 +2,7 @@
 Theme Name:		mod-Open Source Publishing
 Theme URI:		http://ospublish.constantvzw.org
 Description:		
-Version:		1.4
+Version:		1.5
 Author:			Open Source Publishing
 Author URI:		http://ospublish.constantvzw.org
 */
@@ -132,7 +132,7 @@ pre {
   margin: 0 auto; }
 
 #right_side, #left_side, .sidebar {
-  width: 440px;
+  width: 440 px;
   float: left;
   overflow: hidden; }
  
@@ -272,8 +272,7 @@ ul.blognav a {
   }
 
 ul.blognav li {
-  margin: 3px 12px 3px 0;
-  padding: 2px;
+  margin: 0px 7px 2px 0px ;
   font-size: 14px;
   float: left;
   list-style:none;
@@ -392,7 +391,9 @@ ul.blognav li {
   clear: left; }
 
 .post {
-  margin: 5px 0 15px 0; }
+  margin: 5px 0 15px 0;
+	border-bottom: 1px dotted black;
+}
 
 .entry {
   font-size: 12px; }
