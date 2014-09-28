@@ -6,7 +6,6 @@
            <div id="left_side">
             
                   <div class="wide_post"> 
-                      <h2 class="sitetype">OSP-blog</h2>
 
 
                       <ul class="blognav">
