@@ -9,6 +9,7 @@
     <meta name="generator" content="WordPress <?php bloginfo('version'); ?>" /> <!-- leave this for stats -->
     
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/osp.tools.wordpress-theme/osp/stylesheets/screen.css" />
 
     <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
@@ -34,7 +35,7 @@
 $result_random=rand(1, 7);
 ?>
 
-    <h1><a href="<?php echo get_settings('home'); ?>" title="Home"><?php bloginfo('name'); ?></a><a href="http://en.wikipedia.org/wiki/Tardigrada" class="star" title="Tardigrade"><img src="<?php echo get_settings('home'); ?>/wp-content/themes/osp/images/bear_<?php echo $result_random ?>.jpg"></a>
+    <h1><a href="<?php echo get_settings('home'); ?>" title="Home"><?php bloginfo('name'); ?></a><a href="http://en.wikipedia.org/wiki/Tardigrada" class="star" title="Tardigrade"><img src="<?php echo get_settings('home'); ?>/wp-content/themes/osp.tools.wordpress-theme/osp/images/bear_<?php echo $result_random ?>.jpg"></a>
 
 
 </h1>
