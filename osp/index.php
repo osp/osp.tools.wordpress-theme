@@ -6,7 +6,6 @@
            <div id="left_side">
             
                   <div class="wide_post"> 
-                      <h2 class="sitetype">OSP-blog</h2>
 
 
                       <ul class="blognav">
@@ -18,10 +17,10 @@
                             <li><a href="/recipes">Recipes</a></li>
                           </ul>
                           <div style="clear:both;"></div>
-                          <div style="margin-bottom:20px;"></div>
+                          <div style="margin-bottom:20px; border-bottom:1px dotted black;"></div>
                            
                    <?php if (have_posts()) : ?>    
-                  <?php query_posts('showposts=3'); ?>
+                  <?php query_posts('showposts=5'); ?>
                   <?php while (have_posts()) : the_post(); ?>
                   
                                                   <div class="post">
@@ -59,7 +58,7 @@ if ($git) {
                  <div class="listing">   
                   
                   <?php if (have_posts()) : ?>    
-                  <?php query_posts('showposts=5&offset=3'); ?>
+                  <?php query_posts('showposts=10&offset=3'); ?>
                   <?php while (have_posts()) : the_post(); ?>
                   
                           
@@ -83,12 +82,8 @@ if ($git) {
                  </div><!--listing-->
 
                          <p class="more">
-                                 <?php
-                                 $arc_year = get_the_time('Y');
-                                 $arc_month = get_the_time('m');
-                                  ?>
-                                <a href="<?php echo get_month_link("$arc_year", "$arc_month"); ?>">[More posts from the archive &rarr;]</a>
-                        </p>
+                         <a href="http://ospublish.constantvzw.org/blog/archives">[More posts by browsing the archive &rarr;]</a>
+                         </p>
           
                  </div><!--left_side-->
                   <div id="right_side">

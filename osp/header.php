@@ -34,7 +34,7 @@
 $result_random=rand(1, 7);
 ?>
 
-    <h1><a href="<?php echo get_settings('home'); ?>" title="Home"><?php bloginfo('name'); ?></a><a href="http://en.wikipedia.org/wiki/Tardigrada" class="star" title="Tardigrade"><img src="<?php echo get_settings('home'); ?>/wp-content/themes/osp/images/bear_<?php echo $result_random ?>.jpg"></a>
+    <h1><a href="<?php echo get_settings('home'); ?>" title="Home"><?php bloginfo('name'); ?></a><a href="http://en.wikipedia.org/wiki/Tardigrada" class="star" title="Tardigrade"><!--<img src="<?php echo get_settings('home'); ?>/wp-content/themes/osp/images/bear_<?php echo $result_random ?>.jpg">--></a>
 
 
 </h1>
